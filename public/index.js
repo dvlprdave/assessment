@@ -1,1 +1,1 @@
-$('#bottomalign').css('text-align','center')
+// $('#bottomalign').css('text-align','center')
