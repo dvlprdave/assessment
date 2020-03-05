@@ -13,6 +13,9 @@ fetch('../test_feed.json')
   })
 .catch(err => console.error(err));
 
+// Could have broken down functions more for more reusable pieces
+// Not sure if I could use regex next time. It has a learning curve
+
 function handleTweetText(data) {
   for (var i = 0; i < data.content.length; i++) {
     const tweetHtml = data.content[i].content.bodyHtml;
@@ -87,7 +90,7 @@ function getWordCount(arr) {
     sortedWords.push([singleWord, groupObj[singleWord]])
   }
 
-  sortedWords.sort(function(a, b) {
+  sortedWords.sort((a, b) => {
       return b[1] - a[1]
   });
 
