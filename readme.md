@@ -24,3 +24,18 @@ The goal is to demonstrate your abilities in;
 3. Utilize the Chart.js library (http://www.chartjs.org/) to visualize the results on the web page. You're free to implement it in anyway you see fit, including the use of other libraries.
 
 4. Using git, put the files in a publically accesible repo so that the test can be run on a local machine.
+
+## My solutions: 
+
+1. Cleaned up the index.html file
+- removed inline styline
+- added meta tags
+- moved scripts and link tags 
+- added links for each section
+- styled for responsive design
+- removed repeated id tags
+2. Merged CSS files into one index.css
+3. Created chartData.js file to work with building a data structure and the chart
+## My Struggles
+- Finding an appropriate way to match data
+- Getting data to show as needed
